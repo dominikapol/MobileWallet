@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.4.4)
+  - FSCalendar (2.8.2)
+  - MKRingProgressView (2.3.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SwiftGen (6.5.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FSCalendar
+  - MKRingProgressView
+  - SDWebImage (~> 5.0)
+  - SwiftGen
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FSCalendar
+    - MKRingProgressView
+    - SDWebImage
+    - SwiftGen
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  MKRingProgressView: f534209b9a1edc0beb2ea613e6b953ea2195b565
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 85e2f09c6e3a2286e4c144db0e137bf7cbf31437
+
+COCOAPODS: 1.11.2

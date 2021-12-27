@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Intelligence" representedClassName="Intelligence" syncable="YES">
+        <attribute name="dreamCostCD" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="moneyDay" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="monthsCD" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nameOfOwnerCD" optional="YES" attributeType="String"/>
+        <attribute name="nameOfTheDreamCD" optional="YES" attributeType="String"/>
+        <attribute name="photoDreamCD" optional="YES" attributeType="Binary"/>
+        <attribute name="piggyBankCells" optional="YES" attributeType="String"/>
+        <attribute name="piggyBankLabel" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="salaryCD" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="IntelligenceMD" representedClassName="IntelligenceMD" syncable="YES">
+        <attribute name="amountOfSpent" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="recipientsAccount" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SavedMoney" representedClassName="SavedMoney" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Intelligence" positionX="-63" positionY="-18" width="128" height="164"/>
+        <element name="IntelligenceMD" positionX="-63" positionY="54" width="128" height="89"/>
+        <element name="SavedMoney" positionX="-63" positionY="54" width="128" height="59"/>
+    </elements>
 </model>

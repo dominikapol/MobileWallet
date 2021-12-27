@@ -9,23 +9,109 @@
 /* Begin PBXBuildFile section */
 		670E4ED7273A807B00DB20D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670E4ED6273A807B00DB20D1 /* AppDelegate.swift */; };
 		670E4ED9273A807B00DB20D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670E4ED8273A807B00DB20D1 /* SceneDelegate.swift */; };
-		670E4EDB273A807B00DB20D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670E4EDA273A807B00DB20D1 /* ViewController.swift */; };
-		670E4EDE273A807B00DB20D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670E4EDC273A807B00DB20D1 /* Main.storyboard */; };
-		670E4EE1273A807B00DB20D1 /* MobileWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 670E4EDF273A807B00DB20D1 /* MobileWallet.xcdatamodeld */; };
 		670E4EE3273A807D00DB20D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670E4EE2273A807D00DB20D1 /* Assets.xcassets */; };
 		670E4EE6273A807D00DB20D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670E4EE4273A807D00DB20D1 /* LaunchScreen.storyboard */; };
+		670FB2EC275B8A730083CF2A /* MoneyDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FB2E9275B8A730083CF2A /* MoneyDayPresenter.swift */; };
+		670FB2ED275B8A730083CF2A /* MoneyDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FB2EA275B8A730083CF2A /* MoneyDayViewController.swift */; };
+		670FB2F7275E69100083CF2A /*  TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FB2F6275E69100083CF2A /*  TabBarController.swift */; };
+		672038242747F63E009FA735 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672038232747F63E009FA735 /* Extension.swift */; };
+		67219C2027745E4C004351BF /* CellOfExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67219C1F27745E4C004351BF /* CellOfExchangeRate.swift */; };
+		67219C2427745E79004351BF /* CellOfExchangeRate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67219C2327745E79004351BF /* CellOfExchangeRate.xib */; };
+		6734BC402764AC5E00991105 /* Intelligence+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734BC3E2764AC5E00991105 /* Intelligence+CoreDataClass.swift */; };
+		67547C80273D0ECB000CBCF1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67547C7F273D0ECB000CBCF1 /* RootViewController.swift */; };
+		67547C82273D0EFD000CBCF1 /* RootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67547C81273D0EFD000CBCF1 /* RootViewController.storyboard */; };
+		67547C84273E9B97000CBCF1 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67547C83273E9B97000CBCF1 /* CoreDataService.swift */; };
+		6766BCA5275E8017006C556F /* MoneyDay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6766BCA4275E8017006C556F /* MoneyDay.storyboard */; };
+		67691E89277322160005DC44 /* MobileWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67691E87277322160005DC44 /* MobileWallet.xcdatamodeld */; };
+		67ACB575273A84BD00CA70F2 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ACB572273A84BD00CA70F2 /* Registration.storyboard */; };
+		67ACB576273A84BD00CA70F2 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB573273A84BD00CA70F2 /* RegistrationPresenter.swift */; };
+		67ACB577273A84BD00CA70F2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB574273A84BD00CA70F2 /* RegistrationViewController.swift */; };
+		67ACB57C273A852600CA70F2 /* MajorScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ACB579273A852600CA70F2 /* MajorScreen.storyboard */; };
+		67ACB57D273A852600CA70F2 /* MajorScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB57A273A852600CA70F2 /* MajorScreenPresenter.swift */; };
+		67ACB57E273A852600CA70F2 /* MajorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB57B273A852600CA70F2 /* MajorScreenViewController.swift */; };
+		67ACB583273A858E00CA70F2 /* PiggyBank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ACB580273A858E00CA70F2 /* PiggyBank.storyboard */; };
+		67ACB584273A858E00CA70F2 /* PiggyBankPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB581273A858E00CA70F2 /* PiggyBankPresenter.swift */; };
+		67ACB585273A858E00CA70F2 /* PiggyBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACB582273A858E00CA70F2 /* PiggyBankViewController.swift */; };
+		67B6CF6427621AE000B4C03D /* PiggyBankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6CF6327621AE000B4C03D /* PiggyBankCell.swift */; };
+		67B6CF6927621C0600B4C03D /* PiggyBankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B6CF6827621C0600B4C03D /* PiggyBankCell.xib */; };
+		67C9848B275621B80093AD1E /* MKRingProgressGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9848A275621B80093AD1E /* MKRingProgressGroupView.swift */; };
+		67C98493275674D30093AD1E /* Limelight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C98491275674D30093AD1E /* Limelight-Regular.ttf */; };
+		67C98494275674D30093AD1E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 67C98492275674D30093AD1E /* OFL.txt */; };
+		67CE93FF274EB7B60005DB75 /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE93FB274EB7B60005DB75 /* StoryboardScenes.swift */; };
+		67CE9400274EB7B60005DB75 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE93FC274EB7B60005DB75 /* Strings.swift */; };
+		67CE9401274EB7B60005DB75 /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE93FD274EB7B60005DB75 /* StoryboardSegues.swift */; };
+		67CE9402274EB7B60005DB75 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE93FE274EB7B60005DB75 /* Assets.swift */; };
+		67D0B34D2767A4D900FCE211 /* SavedMoney+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D0B34B2767A4D900FCE211 /* SavedMoney+CoreDataClass.swift */; };
+		67E7E1F3276A8A27002B8386 /* IntelligenceMD+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1F1276A8A27002B8386 /* IntelligenceMD+CoreData.swift */; };
+		67E7E1F7276A8AC2002B8386 /* AlertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1F6276A8AC2002B8386 /* AlertDate.swift */; };
+		67E7E1F9276A8ACB002B8386 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1F8276A8ACB002B8386 /* AlertType.swift */; };
+		67E7E1FC276A8AEF002B8386 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1FB276A8AEF002B8386 /* Options.swift */; };
+		67E7E1FE276A8AFB002B8386 /* OptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1FD276A8AFB002B8386 /* OptionsCell.swift */; };
+		67E7E200276A8B0C002B8386 /* OptionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E1FF276A8B0C002B8386 /* OptionsPresenter.swift */; };
+		67E7E202276A8B1F002B8386 /* HeaderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E201276A8B1F002B8386 /* HeaderOptions.swift */; };
+		67E7E204276A8BBC002B8386 /* CellForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E203276A8BBC002B8386 /* CellForTableView.swift */; };
+		67E7E206276A8BD4002B8386 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E205276A8BD4002B8386 /* UIStackView.swift */; };
+		67E7E208276A8BE9002B8386 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E207276A8BE9002B8386 /* UILabel.swift */; };
+		67E7E20C276A8CAC002B8386 /* AlertForTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7E20B276A8CAC002B8386 /* AlertForTime.swift */; };
+		67EDED99274D99DE00D6E25F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67EDED98274D99DE00D6E25F /* Localizable.strings */; };
+		67EDED9B274D9F5800D6E25F /* Configuration.yml in Resources */ = {isa = PBXBuildFile; fileRef = 67EDED9A274D9F5800D6E25F /* Configuration.yml */; };
+		78F2D174DF0DAF65EFC85FDC /* Pods_MobileWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211ABC4D77AA6B3A7E0783CA /* Pods_MobileWallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211ABC4D77AA6B3A7E0783CA /* Pods_MobileWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CB6A2211AF06B9FFF37AEE /* Pods-MobileWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileWallet.debug.xcconfig"; path = "Target Support Files/Pods-MobileWallet/Pods-MobileWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		670E4ED3273A807B00DB20D1 /* MobileWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		670E4ED6273A807B00DB20D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		670E4ED8273A807B00DB20D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		670E4EDA273A807B00DB20D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		670E4EDD273A807B00DB20D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		670E4EE0273A807B00DB20D1 /* MobileWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileWallet.xcdatamodel; sourceTree = "<group>"; };
 		670E4EE2273A807D00DB20D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		670E4EE5273A807D00DB20D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		670E4EE7273A807D00DB20D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670FB2E9275B8A730083CF2A /* MoneyDayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyDayPresenter.swift; sourceTree = "<group>"; };
+		670FB2EA275B8A730083CF2A /* MoneyDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyDayViewController.swift; sourceTree = "<group>"; };
+		670FB2F6275E69100083CF2A /*  TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TabBarController.swift"; sourceTree = "<group>"; };
+		672038232747F63E009FA735 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		67219C1F27745E4C004351BF /* CellOfExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOfExchangeRate.swift; sourceTree = "<group>"; };
+		67219C2327745E79004351BF /* CellOfExchangeRate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellOfExchangeRate.xib; sourceTree = "<group>"; };
+		6734BC3E2764AC5E00991105 /* Intelligence+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Intelligence+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67547C7F273D0ECB000CBCF1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		67547C81273D0EFD000CBCF1 /* RootViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootViewController.storyboard; sourceTree = "<group>"; };
+		67547C83273E9B97000CBCF1 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		6766BCA4275E8017006C556F /* MoneyDay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoneyDay.storyboard; sourceTree = "<group>"; };
+		67691E88277322160005DC44 /* MobileWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileWallet.xcdatamodel; sourceTree = "<group>"; };
+		67ACB572273A84BD00CA70F2 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		67ACB573273A84BD00CA70F2 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		67ACB574273A84BD00CA70F2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		67ACB579273A852600CA70F2 /* MajorScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MajorScreen.storyboard; sourceTree = "<group>"; };
+		67ACB57A273A852600CA70F2 /* MajorScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorScreenPresenter.swift; sourceTree = "<group>"; };
+		67ACB57B273A852600CA70F2 /* MajorScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorScreenViewController.swift; sourceTree = "<group>"; };
+		67ACB580273A858E00CA70F2 /* PiggyBank.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PiggyBank.storyboard; sourceTree = "<group>"; };
+		67ACB581273A858E00CA70F2 /* PiggyBankPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankPresenter.swift; sourceTree = "<group>"; };
+		67ACB582273A858E00CA70F2 /* PiggyBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankViewController.swift; sourceTree = "<group>"; };
+		67B6CF6327621AE000B4C03D /* PiggyBankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankCell.swift; sourceTree = "<group>"; };
+		67B6CF6827621C0600B4C03D /* PiggyBankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PiggyBankCell.xib; sourceTree = "<group>"; };
+		67C9848A275621B80093AD1E /* MKRingProgressGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupView.swift; sourceTree = "<group>"; };
+		67C98491275674D30093AD1E /* Limelight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Limelight-Regular.ttf"; sourceTree = "<group>"; };
+		67C98492275674D30093AD1E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		67CE93FB274EB7B60005DB75 /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
+		67CE93FC274EB7B60005DB75 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		67CE93FD274EB7B60005DB75 /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
+		67CE93FE274EB7B60005DB75 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		67D0B34B2767A4D900FCE211 /* SavedMoney+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SavedMoney+CoreDataClass.swift"; sourceTree = "<group>"; };
+		67E7E1F1276A8A27002B8386 /* IntelligenceMD+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IntelligenceMD+CoreData.swift"; sourceTree = "<group>"; };
+		67E7E1F6276A8AC2002B8386 /* AlertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDate.swift; sourceTree = "<group>"; };
+		67E7E1F8276A8ACB002B8386 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		67E7E1FB276A8AEF002B8386 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		67E7E1FD276A8AFB002B8386 /* OptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCell.swift; sourceTree = "<group>"; };
+		67E7E1FF276A8B0C002B8386 /* OptionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPresenter.swift; sourceTree = "<group>"; };
+		67E7E201276A8B1F002B8386 /* HeaderOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderOptions.swift; sourceTree = "<group>"; };
+		67E7E203276A8BBC002B8386 /* CellForTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForTableView.swift; sourceTree = "<group>"; };
+		67E7E205276A8BD4002B8386 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		67E7E207276A8BE9002B8386 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		67E7E20B276A8CAC002B8386 /* AlertForTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForTime.swift; sourceTree = "<group>"; };
+		67EDED98274D99DE00D6E25F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		67EDED9A274D9F5800D6E25F /* Configuration.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = Configuration.yml; sourceTree = "<group>"; };
+		CEE345EEFCB48D636274B758 /* Pods-MobileWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileWallet.release.xcconfig"; path = "Target Support Files/Pods-MobileWallet/Pods-MobileWallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +119,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F2D174DF0DAF65EFC85FDC /* Pods_MobileWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FB5AE12008C8C6A0F1BF191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CB6A2211AF06B9FFF37AEE /* Pods-MobileWallet.debug.xcconfig */,
+				CEE345EEFCB48D636274B758 /* Pods-MobileWallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		670E4ECA273A807B00DB20D1 = {
 			isa = PBXGroup;
 			children = (
 				670E4ED5273A807B00DB20D1 /* MobileWallet */,
 				670E4ED4273A807B00DB20D1 /* Products */,
+				1FB5AE12008C8C6A0F1BF191 /* Pods */,
+				E8470271C3D3B757A2C6D6DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +156,217 @@
 		670E4ED5273A807B00DB20D1 /* MobileWallet */ = {
 			isa = PBXGroup;
 			children = (
-				670E4ED6273A807B00DB20D1 /* AppDelegate.swift */,
-				670E4ED8273A807B00DB20D1 /* SceneDelegate.swift */,
-				670E4EDA273A807B00DB20D1 /* ViewController.swift */,
-				670E4EDC273A807B00DB20D1 /* Main.storyboard */,
-				670E4EE2273A807D00DB20D1 /* Assets.xcassets */,
+				670FB2F5275E68FD0083CF2A /* TabBar */,
+				67547C8F273EAED0000CBCF1 /* CoreData */,
+				67ACB578273A84C100CA70F2 /* Registration */,
+				67ACB57F273A853500CA70F2 /* MajorScreen */,
+				67ACB586273A859E00CA70F2 /* Piggy bank */,
+				670FB2EE275B8A7B0083CF2A /* MoneyDay */,
+				67EDED95274D998000D6E25F /* Resources */,
+				67EDED91274D994200D6E25F /* SwiftGen */,
+				67547C81273D0EFD000CBCF1 /* RootViewController.storyboard */,
+				67547C7F273D0ECB000CBCF1 /* RootViewController.swift */,
 				670E4EE4273A807D00DB20D1 /* LaunchScreen.storyboard */,
+				670E4ED8273A807B00DB20D1 /* SceneDelegate.swift */,
+				670E4ED6273A807B00DB20D1 /* AppDelegate.swift */,
 				670E4EE7273A807D00DB20D1 /* Info.plist */,
-				670E4EDF273A807B00DB20D1 /* MobileWallet.xcdatamodeld */,
+				67691E87277322160005DC44 /* MobileWallet.xcdatamodeld */,
 			);
 			path = MobileWallet;
+			sourceTree = "<group>";
+		};
+		670FB2EE275B8A7B0083CF2A /* MoneyDay */ = {
+			isa = PBXGroup;
+			children = (
+				67E7E1F5276A8AA2002B8386 /* Options */,
+				67E7E209276A8BEE002B8386 /* CellsForTableView */,
+				670FB2E9275B8A730083CF2A /* MoneyDayPresenter.swift */,
+				670FB2EA275B8A730083CF2A /* MoneyDayViewController.swift */,
+				6766BCA4275E8017006C556F /* MoneyDay.storyboard */,
+			);
+			path = MoneyDay;
+			sourceTree = "<group>";
+		};
+		670FB2F5275E68FD0083CF2A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				670FB2F6275E69100083CF2A /*  TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		67219C2127745E50004351BF /* CellOfExchangeRate */ = {
+			isa = PBXGroup;
+			children = (
+				67219C1F27745E4C004351BF /* CellOfExchangeRate.swift */,
+				67219C2327745E79004351BF /* CellOfExchangeRate.xib */,
+			);
+			path = CellOfExchangeRate;
+			sourceTree = "<group>";
+		};
+		67547C85273E9B9A000CBCF1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67547C83273E9B97000CBCF1 /* CoreDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		67547C86273EACEB000CBCF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67D0B34B2767A4D900FCE211 /* SavedMoney+CoreDataClass.swift */,
+				6734BC3E2764AC5E00991105 /* Intelligence+CoreDataClass.swift */,
+				67E7E1F1276A8A27002B8386 /* IntelligenceMD+CoreData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67547C8F273EAED0000CBCF1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				67547C85273E9B9A000CBCF1 /* Service */,
+				67547C86273EACEB000CBCF1 /* Models */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		67ACB578273A84C100CA70F2 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				67ACB573273A84BD00CA70F2 /* RegistrationPresenter.swift */,
+				67ACB574273A84BD00CA70F2 /* RegistrationViewController.swift */,
+				67ACB572273A84BD00CA70F2 /* Registration.storyboard */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		67ACB57F273A853500CA70F2 /* MajorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				67C98489275621730093AD1E /* MKRingProgressGroup */,
+				67ACB57A273A852600CA70F2 /* MajorScreenPresenter.swift */,
+				67ACB57B273A852600CA70F2 /* MajorScreenViewController.swift */,
+				67ACB579273A852600CA70F2 /* MajorScreen.storyboard */,
+				67219C2127745E50004351BF /* CellOfExchangeRate */,
+			);
+			path = MajorScreen;
+			sourceTree = "<group>";
+		};
+		67ACB586273A859E00CA70F2 /* Piggy bank */ = {
+			isa = PBXGroup;
+			children = (
+				67ACB581273A858E00CA70F2 /* PiggyBankPresenter.swift */,
+				67ACB582273A858E00CA70F2 /* PiggyBankViewController.swift */,
+				67ACB580273A858E00CA70F2 /* PiggyBank.storyboard */,
+				67B6CF6727621B0300B4C03D /* PiggyBankCell */,
+			);
+			path = "Piggy bank";
+			sourceTree = "<group>";
+		};
+		67B6CF6727621B0300B4C03D /* PiggyBankCell */ = {
+			isa = PBXGroup;
+			children = (
+				67B6CF6327621AE000B4C03D /* PiggyBankCell.swift */,
+				67B6CF6827621C0600B4C03D /* PiggyBankCell.xib */,
+			);
+			path = PiggyBankCell;
+			sourceTree = "<group>";
+		};
+		67C98489275621730093AD1E /* MKRingProgressGroup */ = {
+			isa = PBXGroup;
+			children = (
+				67C9848A275621B80093AD1E /* MKRingProgressGroupView.swift */,
+			);
+			path = MKRingProgressGroup;
+			sourceTree = "<group>";
+		};
+		67C9848F275674C50093AD1E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				67C98490275674D30093AD1E /* Limelight */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		67C98490275674D30093AD1E /* Limelight */ = {
+			isa = PBXGroup;
+			children = (
+				67C98491275674D30093AD1E /* Limelight-Regular.ttf */,
+				67C98492275674D30093AD1E /* OFL.txt */,
+			);
+			path = Limelight;
+			sourceTree = "<group>";
+		};
+		67E7E1F5276A8AA2002B8386 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				67E7E1FA276A8ADA002B8386 /* Alerts */,
+				67E7E1FB276A8AEF002B8386 /* Options.swift */,
+				67E7E1FF276A8B0C002B8386 /* OptionsPresenter.swift */,
+				67E7E1FD276A8AFB002B8386 /* OptionsCell.swift */,
+				67E7E201276A8B1F002B8386 /* HeaderOptions.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		67E7E1FA276A8ADA002B8386 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				67E7E1F8276A8ACB002B8386 /* AlertType.swift */,
+				67E7E1F6276A8AC2002B8386 /* AlertDate.swift */,
+				67E7E20B276A8CAC002B8386 /* AlertForTime.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		67E7E209276A8BEE002B8386 /* CellsForTableView */ = {
+			isa = PBXGroup;
+			children = (
+				67E7E20A276A8C00002B8386 /* Extensions */,
+				67E7E203276A8BBC002B8386 /* CellForTableView.swift */,
+			);
+			path = CellsForTableView;
+			sourceTree = "<group>";
+		};
+		67E7E20A276A8C00002B8386 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67E7E205276A8BD4002B8386 /* UIStackView.swift */,
+				67E7E207276A8BE9002B8386 /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67EDED91274D994200D6E25F /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				67EDED9A274D9F5800D6E25F /* Configuration.yml */,
+				67CE93FE274EB7B60005DB75 /* Assets.swift */,
+				67CE93FB274EB7B60005DB75 /* StoryboardScenes.swift */,
+				67CE93FD274EB7B60005DB75 /* StoryboardSegues.swift */,
+				67CE93FC274EB7B60005DB75 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		67EDED95274D998000D6E25F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67C9848F275674C50093AD1E /* Fonts */,
+				670E4EE2273A807D00DB20D1 /* Assets.xcassets */,
+				672038232747F63E009FA735 /* Extension.swift */,
+				67EDED98274D99DE00D6E25F /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8470271C3D3B757A2C6D6DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211ABC4D77AA6B3A7E0783CA /* Pods_MobileWallet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 670E4EEA273A807D00DB20D1 /* Build configuration list for PBXNativeTarget "MobileWallet" */;
 			buildPhases = (
+				A2FDFE2BE23248E1D3062BAD /* [CP] Check Pods Manifest.lock */,
 				670E4ECF273A807B00DB20D1 /* Sources */,
 				670E4ED0273A807B00DB20D1 /* Frameworks */,
 				670E4ED1273A807B00DB20D1 /* Resources */,
+				22C296C2C399D0BD023FD07C /* [CP] Embed Pods Frameworks */,
+				67EDED90274D98A500D6E25F /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -128,37 +430,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C98494275674D30093AD1E /* OFL.txt in Resources */,
+				67C98493275674D30093AD1E /* Limelight-Regular.ttf in Resources */,
 				670E4EE6273A807D00DB20D1 /* LaunchScreen.storyboard in Resources */,
+				67ACB583273A858E00CA70F2 /* PiggyBank.storyboard in Resources */,
+				6766BCA5275E8017006C556F /* MoneyDay.storyboard in Resources */,
+				67ACB575273A84BD00CA70F2 /* Registration.storyboard in Resources */,
+				67B6CF6927621C0600B4C03D /* PiggyBankCell.xib in Resources */,
+				67219C2427745E79004351BF /* CellOfExchangeRate.xib in Resources */,
+				67547C82273D0EFD000CBCF1 /* RootViewController.storyboard in Resources */,
+				67EDED9B274D9F5800D6E25F /* Configuration.yml in Resources */,
+				67EDED99274D99DE00D6E25F /* Localizable.strings in Resources */,
 				670E4EE3273A807D00DB20D1 /* Assets.xcassets in Resources */,
-				670E4EDE273A807B00DB20D1 /* Main.storyboard in Resources */,
+				67ACB57C273A852600CA70F2 /* MajorScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22C296C2C399D0BD023FD07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileWallet/Pods-MobileWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileWallet/Pods-MobileWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileWallet/Pods-MobileWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EDED90274D98A500D6E25F /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if which $PODS_ROOT/SwiftGen/bin/swiftgen >/dev/null; then\n    $PODS_ROOT/SwiftGen/bin/swiftgen config run --config \"$PROJECT_DIR/MobileWallet/SwiftGen/Configuration.yml\"\n    touch \"$PROJECT_DIR/MobileWallet/SwiftGen/Configuration.yml\"\n#else\n    #echo \"SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\n#fi\n";
+		};
+		A2FDFE2BE23248E1D3062BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		670E4ECF273A807B00DB20D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				670E4EDB273A807B00DB20D1 /* ViewController.swift in Sources */,
+				67547C80273D0ECB000CBCF1 /* RootViewController.swift in Sources */,
+				67B6CF6427621AE000B4C03D /* PiggyBankCell.swift in Sources */,
+				67219C2027745E4C004351BF /* CellOfExchangeRate.swift in Sources */,
+				67CE9400274EB7B60005DB75 /* Strings.swift in Sources */,
+				67ACB577273A84BD00CA70F2 /* RegistrationViewController.swift in Sources */,
+				67E7E1FE276A8AFB002B8386 /* OptionsCell.swift in Sources */,
+				67E7E1FC276A8AEF002B8386 /* Options.swift in Sources */,
+				67E7E1F7276A8AC2002B8386 /* AlertDate.swift in Sources */,
+				67E7E20C276A8CAC002B8386 /* AlertForTime.swift in Sources */,
+				67ACB57D273A852600CA70F2 /* MajorScreenPresenter.swift in Sources */,
+				67ACB57E273A852600CA70F2 /* MajorScreenViewController.swift in Sources */,
+				67ACB584273A858E00CA70F2 /* PiggyBankPresenter.swift in Sources */,
+				67ACB576273A84BD00CA70F2 /* RegistrationPresenter.swift in Sources */,
+				67CE9402274EB7B60005DB75 /* Assets.swift in Sources */,
+				67C9848B275621B80093AD1E /* MKRingProgressGroupView.swift in Sources */,
 				670E4ED7273A807B00DB20D1 /* AppDelegate.swift in Sources */,
-				670E4EE1273A807B00DB20D1 /* MobileWallet.xcdatamodeld in Sources */,
+				67ACB585273A858E00CA70F2 /* PiggyBankViewController.swift in Sources */,
+				670FB2ED275B8A730083CF2A /* MoneyDayViewController.swift in Sources */,
+				670FB2F7275E69100083CF2A /*  TabBarController.swift in Sources */,
+				672038242747F63E009FA735 /* Extension.swift in Sources */,
+				67E7E204276A8BBC002B8386 /* CellForTableView.swift in Sources */,
+				67547C84273E9B97000CBCF1 /* CoreDataService.swift in Sources */,
+				6734BC402764AC5E00991105 /* Intelligence+CoreDataClass.swift in Sources */,
+				67E7E1F3276A8A27002B8386 /* IntelligenceMD+CoreData.swift in Sources */,
 				670E4ED9273A807B00DB20D1 /* SceneDelegate.swift in Sources */,
+				67D0B34D2767A4D900FCE211 /* SavedMoney+CoreDataClass.swift in Sources */,
+				67E7E208276A8BE9002B8386 /* UILabel.swift in Sources */,
+				67E7E200276A8B0C002B8386 /* OptionsPresenter.swift in Sources */,
+				67CE9401274EB7B60005DB75 /* StoryboardSegues.swift in Sources */,
+				67E7E206276A8BD4002B8386 /* UIStackView.swift in Sources */,
+				67CE93FF274EB7B60005DB75 /* StoryboardScenes.swift in Sources */,
+				67E7E202276A8B1F002B8386 /* HeaderOptions.swift in Sources */,
+				67E7E1F9276A8ACB002B8386 /* AlertType.swift in Sources */,
+				67691E89277322160005DC44 /* MobileWallet.xcdatamodeld in Sources */,
+				670FB2EC275B8A730083CF2A /* MoneyDayPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		670E4EDC273A807B00DB20D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				670E4EDD273A807B00DB20D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		670E4EE4273A807D00DB20D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +683,7 @@
 		};
 		670E4EEB273A807D00DB20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CB6A2211AF06B9FFF37AEE /* Pods-MobileWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,7 +693,7 @@
 				INFOPLIST_FILE = MobileWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = RootViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +711,7 @@
 		};
 		670E4EEC273A807D00DB20D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE345EEFCB48D636274B758 /* Pods-MobileWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +721,7 @@
 				INFOPLIST_FILE = MobileWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = RootViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,12 +761,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		670E4EDF273A807B00DB20D1 /* MobileWallet.xcdatamodeld */ = {
+		67691E87277322160005DC44 /* MobileWallet.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				670E4EE0273A807B00DB20D1 /* MobileWallet.xcdatamodel */,
+				67691E88277322160005DC44 /* MobileWallet.xcdatamodel */,
 			);
-			currentVersion = 670E4EE0273A807B00DB20D1 /* MobileWallet.xcdatamodel */;
+			currentVersion = 67691E88277322160005DC44 /* MobileWallet.xcdatamodel */;
 			path = MobileWallet.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

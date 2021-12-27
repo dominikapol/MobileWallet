@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Limelight-Regular.ttf">
+            <string>Limelight-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Piggy Bank View Controller-->
+        <scene sceneID="rpV-mr-Pav">
+            <objects>
+                <viewController storyboardIdentifier="PiggyBankViewController" id="1t2-l7-yzn" customClass="PiggyBankViewController" customModule="MobileWallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHv-Ld-GZd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdV-Fd-get">
+                                <rect key="frame" x="82" y="44" width="250" height="250"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piggyBank" highlightedImage="piggyBank" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63p-Gb-CUt">
+                                        <rect key="frame" x="10" y="10" width="230" height="230"/>
+                                        <color key="backgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="63p-Gb-CUt" secondAttribute="height" multiplier="1:1" id="e0T-Ds-ZPa"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="700" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knl-CN-vS6">
+                                        <rect key="frame" x="77" y="108" width="110" height="69"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Knl-CN-vS6" secondAttribute="height" multiplier="110:69" id="zaj-XZ-ZnL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="30"/>
+                                        <color key="textColor" red="0.109803915" green="0.26274511220000002" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="Knl-CN-vS6" firstAttribute="leading" secondItem="gdV-Fd-get" secondAttribute="leading" constant="77" id="98A-1a-Cdk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Knl-CN-vS6" secondAttribute="trailing" constant="63" id="AAF-Af-c1V"/>
+                                    <constraint firstAttribute="bottom" secondItem="63p-Gb-CUt" secondAttribute="bottom" constant="10" id="Dwz-ku-iPW"/>
+                                    <constraint firstItem="63p-Gb-CUt" firstAttribute="leading" secondItem="gdV-Fd-get" secondAttribute="leading" constant="10" id="Ola-CO-Nk0"/>
+                                    <constraint firstItem="Knl-CN-vS6" firstAttribute="top" secondItem="gdV-Fd-get" secondAttribute="top" constant="108" id="WCO-kK-zX9"/>
+                                    <constraint firstAttribute="width" constant="250" id="WEI-ZK-oig"/>
+                                    <constraint firstAttribute="height" constant="250" id="hiF-YS-fhW"/>
+                                    <constraint firstAttribute="bottom" secondItem="Knl-CN-vS6" secondAttribute="bottom" constant="73" id="o4e-Kz-POv"/>
+                                    <constraint firstAttribute="trailing" secondItem="63p-Gb-CUt" secondAttribute="trailing" constant="10" id="uKb-a6-Ey8"/>
+                                    <constraint firstItem="63p-Gb-CUt" firstAttribute="top" secondItem="gdV-Fd-get" secondAttribute="top" constant="10" id="v7N-ey-ToA"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KIK-kV-aT8">
+                                <rect key="frame" x="15" y="314" width="384" height="459"/>
+                                <color key="backgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYN-oa-Fu8">
+                                <rect key="frame" x="15" y="793" width="384" height="49"/>
+                                <color key="backgroundColor" red="0.52549022440000004" green="0.68627452850000004" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="QiM-3U-snJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Add money">
+                                    <color key="titleColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addMoneyButtonPressed" destination="1t2-l7-yzn" eventType="touchUpInside" id="pZs-KN-d29"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The list of operation is empty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRu-NN-sot">
+                                <rect key="frame" x="17" y="410.5" width="380" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="3JF-Ka-vKg"/>
+                                    <constraint firstAttribute="width" constant="380" id="Z6r-fE-hYq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <color key="textColor" name="customBlue"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lO1-Lq-3c2"/>
+                        <color key="backgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="VYN-oa-Fu8" secondAttribute="trailing" constant="15" id="2vP-f3-QKs"/>
+                            <constraint firstItem="gdV-Fd-get" firstAttribute="centerX" secondItem="dHv-Ld-GZd" secondAttribute="centerX" id="3Wt-4r-Mxd"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="bottom" secondItem="VYN-oa-Fu8" secondAttribute="bottom" constant="20" id="Csr-Vw-zhh"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="KIK-kV-aT8" secondAttribute="trailing" constant="15" id="D0c-7E-XJF"/>
+                            <constraint firstItem="gdV-Fd-get" firstAttribute="top" secondItem="lO1-Lq-3c2" secondAttribute="top" id="PQv-YO-PiA"/>
+                            <constraint firstItem="KIK-kV-aT8" firstAttribute="top" secondItem="gdV-Fd-get" secondAttribute="bottom" constant="20" id="bIp-EI-fyc"/>
+                            <constraint firstItem="oRu-NN-sot" firstAttribute="centerY" secondItem="dHv-Ld-GZd" secondAttribute="centerY" id="dD8-xx-5h1"/>
+                            <constraint firstItem="VYN-oa-Fu8" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="15" id="hJ1-th-Xt9"/>
+                            <constraint firstItem="oRu-NN-sot" firstAttribute="centerX" secondItem="dHv-Ld-GZd" secondAttribute="centerX" id="im1-va-1Vh"/>
+                            <constraint firstItem="VYN-oa-Fu8" firstAttribute="top" secondItem="KIK-kV-aT8" secondAttribute="bottom" constant="20" id="lb2-gF-BME"/>
+                            <constraint firstItem="KIK-kV-aT8" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="15" id="leG-Ve-loN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="listOfOperationLabel" destination="oRu-NN-sot" id="pmo-af-KMG"/>
+                        <outlet property="piggyBankImageView" destination="63p-Gb-CUt" id="hep-TY-JMn"/>
+                        <outlet property="piggyBanklView" destination="gdV-Fd-get" id="n5w-oK-Hom"/>
+                        <outlet property="savedMoney" destination="Knl-CN-vS6" id="YbM-Ah-IpA"/>
+                        <outlet property="tableView" destination="KIK-kV-aT8" id="714-uc-ejQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7B-uH-bVm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="piggyBank" width="256" height="256"/>
+        <namedColor name="customBlue">
+            <color red="0.52499997615814209" green="0.68599998950958252" blue="0.80000001192092896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

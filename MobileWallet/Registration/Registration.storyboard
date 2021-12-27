@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nRO-VJ-fwU">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Limelight-Regular.ttf">
+            <string>Limelight-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Registration View Controller-->
+        <scene sceneID="rpV-mr-Pav">
+            <objects>
+                <viewController storyboardIdentifier="registrationViewController" id="1t2-l7-yzn" customClass="RegistrationViewController" customModule="MobileWallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHv-Ld-GZd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Registration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsE-ME-FBT">
+                                <rect key="frame" x="40.666666666666657" y="88" width="333" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jMc-3y-As3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="50"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.68627452850000004" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p55-rD-Lrm">
+                                <rect key="frame" x="20" y="188" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="lmd-hW-oR5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.20000000000000001" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" systemColor="opaqueSeparatorColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nameTextFieldDidChange" destination="1t2-l7-yzn" eventType="editingChanged" id="ahX-QP-ETD"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="earnings" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D0c-eJ-5af">
+                                <rect key="frame" x="20" y="258" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="q6Y-Nn-ngU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.20000000000000001" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="earningsTextFieldDidChanged" destination="1t2-l7-yzn" eventType="editingChanged" id="H2K-JD-snN"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name of the dream" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-jq-LfM">
+                                <rect key="frame" x="20" y="328" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="g0s-pL-Xb6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.20000000000000001" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nameOfDreamTextFieldDidChanged" destination="1t2-l7-yzn" eventType="editingChanged" id="KNf-bM-3mt"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Enter your name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8L-qF-oen">
+                                <rect key="frame" x="20" y="222" width="115" height="16"/>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                <color key="textColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your earnings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r03-Wr-2Sp">
+                                <rect key="frame" x="20" y="292" width="135.33333333333334" height="16"/>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                <color key="textColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the name of your dream" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px4-Lu-ScY">
+                                <rect key="frame" x="20" y="362" width="208" height="16"/>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                <color key="textColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the  purchase price of your dream" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKF-8c-JUy">
+                                <rect key="frame" x="20" y="432" width="274.66666666666669" height="16"/>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                <color key="textColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="purchase price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pkF-Wi-OMc">
+                                <rect key="frame" x="20" y="398" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="BD4-WF-q1f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.20000000000000001" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="priceOfDreamTextFieldDidChanged" destination="1t2-l7-yzn" eventType="editingChanged" id="paw-Hq-Gx5"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mounth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MaP-sE-Kug">
+                                <rect key="frame" x="20" y="468" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="zx5-5g-sX5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.20000000000000001" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="countOfMonthsTextFieldDidChanged" destination="1t2-l7-yzn" eventType="editingChanged" id="agh-Ud-ubZ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long would you like to save up for a dream?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysb-x3-FPV">
+                                <rect key="frame" x="20" y="502" width="325.66666666666669" height="16"/>
+                                <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                <color key="textColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xTq-i6-b6W">
+                                <rect key="frame" x="67.666666666666686" y="548" width="279" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="3O6-AY-kYu"/>
+                                    <constraint firstAttribute="height" constant="150" id="iou-pk-BON"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="4ic-pT-UWH">
+                                <rect key="frame" x="20" y="753" width="374" height="109"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlK-kU-VYI">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                        <color key="backgroundColor" red="0.83137255909999996" green="0.63529413940000001" blue="0.54901963470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pick the photo of your dream">
+                                            <fontDescription key="titleFontDescription" name="Limelight-Regular" family="Limelight" pointSize="13"/>
+                                            <color key="baseForegroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.20000000000000001" height="0.20000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.29999999999999999"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="pickThePhoto" destination="1t2-l7-yzn" eventType="touchUpInside" id="C9R-40-y8N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eK7-fH-Dd5">
+                                        <rect key="frame" x="0.0" y="66" width="374" height="43"/>
+                                        <color key="backgroundColor" red="0.52549022440000004" green="0.68627452850000004" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Limelight-Regular" family="Limelight" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Save">
+                                            <color key="titleColor" red="0.96680297209999999" green="0.93287633550000004" blue="0.91282213290000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.20000000000000001" height="0.20000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.29999999999999999"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="saveButtonPressed" destination="1t2-l7-yzn" eventType="touchUpInside" id="2JL-7k-jGC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lO1-Lq-3c2"/>
+                        <color key="backgroundColor" red="0.96078431610000004" green="0.94901961089999998" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ysb-x3-FPV" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="0cB-kP-ULk"/>
+                            <constraint firstItem="r03-Wr-2Sp" firstAttribute="top" secondItem="D0c-eJ-5af" secondAttribute="bottom" id="1Uq-yw-UOE"/>
+                            <constraint firstItem="Px4-Lu-ScY" firstAttribute="top" secondItem="h7J-jq-LfM" secondAttribute="bottom" id="4Bv-eo-tcL"/>
+                            <constraint firstItem="XsE-ME-FBT" firstAttribute="centerX" secondItem="dHv-Ld-GZd" secondAttribute="centerX" id="4FB-ms-4Zr"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="p55-rD-Lrm" secondAttribute="trailing" constant="20" id="CLd-vz-yFF"/>
+                            <constraint firstItem="Px4-Lu-ScY" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="Do0-Um-xrW"/>
+                            <constraint firstItem="xTq-i6-b6W" firstAttribute="top" secondItem="ysb-x3-FPV" secondAttribute="bottom" constant="30" id="Ji0-mH-KEz"/>
+                            <constraint firstItem="ysb-x3-FPV" firstAttribute="top" secondItem="MaP-sE-Kug" secondAttribute="bottom" id="Mdx-Ud-BnB"/>
+                            <constraint firstItem="p55-rD-Lrm" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="QPB-iz-6Ge"/>
+                            <constraint firstItem="D0c-eJ-5af" firstAttribute="top" secondItem="Q8L-qF-oen" secondAttribute="bottom" constant="20" id="SDh-sG-684"/>
+                            <constraint firstItem="h7J-jq-LfM" firstAttribute="top" secondItem="r03-Wr-2Sp" secondAttribute="bottom" constant="20" id="TUY-eF-dK8"/>
+                            <constraint firstItem="Q8L-qF-oen" firstAttribute="top" secondItem="p55-rD-Lrm" secondAttribute="bottom" id="Ymh-NQ-plC"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="pkF-Wi-OMc" secondAttribute="trailing" constant="20" id="abQ-t5-Jfe"/>
+                            <constraint firstItem="4ic-pT-UWH" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="aod-wf-hZZ"/>
+                            <constraint firstItem="r03-Wr-2Sp" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="eMn-Uo-Tbb"/>
+                            <constraint firstItem="h7J-jq-LfM" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="fTZ-8f-32Y"/>
+                            <constraint firstItem="4ic-pT-UWH" firstAttribute="bottom" secondItem="lO1-Lq-3c2" secondAttribute="bottom" id="gDv-Pc-lVg"/>
+                            <constraint firstItem="Q8L-qF-oen" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="jr9-ej-Zat"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="MaP-sE-Kug" secondAttribute="trailing" constant="20" id="kfA-Zy-u7s"/>
+                            <constraint firstItem="MaP-sE-Kug" firstAttribute="top" secondItem="IKF-8c-JUy" secondAttribute="bottom" constant="20" id="kfa-PF-mhp"/>
+                            <constraint firstItem="p55-rD-Lrm" firstAttribute="top" secondItem="XsE-ME-FBT" secondAttribute="bottom" constant="20" id="lIq-fl-nLR"/>
+                            <constraint firstItem="XsE-ME-FBT" firstAttribute="top" secondItem="lO1-Lq-3c2" secondAttribute="top" id="lfl-z8-BtS"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="h7J-jq-LfM" secondAttribute="trailing" constant="20" id="ln7-Gj-03q"/>
+                            <constraint firstItem="D0c-eJ-5af" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="nn1-iJ-pEp"/>
+                            <constraint firstItem="xTq-i6-b6W" firstAttribute="centerX" secondItem="dHv-Ld-GZd" secondAttribute="centerX" id="o7j-Wv-0ih"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="4ic-pT-UWH" secondAttribute="trailing" constant="20" id="obd-z7-5Fn"/>
+                            <constraint firstItem="IKF-8c-JUy" firstAttribute="top" secondItem="pkF-Wi-OMc" secondAttribute="bottom" id="prU-w4-JmT"/>
+                            <constraint firstItem="IKF-8c-JUy" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="qE4-wS-XAq"/>
+                            <constraint firstItem="lO1-Lq-3c2" firstAttribute="trailing" secondItem="D0c-eJ-5af" secondAttribute="trailing" constant="20" id="rDM-q3-Q83"/>
+                            <constraint firstItem="MaP-sE-Kug" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="tnI-GL-prO"/>
+                            <constraint firstItem="pkF-Wi-OMc" firstAttribute="top" secondItem="Px4-Lu-ScY" secondAttribute="bottom" constant="20" id="ucD-Ht-LJM"/>
+                            <constraint firstItem="pkF-Wi-OMc" firstAttribute="leading" secondItem="lO1-Lq-3c2" secondAttribute="leading" constant="20" id="wso-2k-rfx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AI9-s8-F0J"/>
+                    <connections>
+                        <outlet property="countOfMonthsTextField" destination="MaP-sE-Kug" id="GIR-fv-NpB"/>
+                        <outlet property="earningsTextField" destination="D0c-eJ-5af" id="kzA-41-ZJi"/>
+                        <outlet property="nameOfDreamTextField" destination="h7J-jq-LfM" id="OXR-Qa-jrV"/>
+                        <outlet property="nameTextField" destination="p55-rD-Lrm" id="L22-vq-CFs"/>
+                        <outlet property="pickedImageView" destination="xTq-i6-b6W" id="sHW-fW-ayX"/>
+                        <outlet property="priceOfDreamTextField" destination="pkF-Wi-OMc" id="yna-Re-sQ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7B-uH-bVm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1931.8840579710147" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5HM-Xm-YPJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nRO-VJ-fwU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LhU-YD-gNR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1t2-l7-yzn" kind="relationship" relationship="rootViewController" id="jFw-Cz-9d6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJr-yF-ebS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.7391304347827" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
